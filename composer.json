@@ -2,7 +2,7 @@
     "name": "webinertia/dojo",
     "description": "DojoToolKit 1.10 support for Laminas Form and Laminas View",
     "type": "library",
-    "license": "BSD-3",
+    "license": "BSD-3-Clause",
     "keywords": [
         "laminas",
         "dojo toolkit",
