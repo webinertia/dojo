@@ -1,0 +1,44 @@
+{
+    "name": "webinertia/dojo",
+    "description": "DojoToolKit 1.10 support for Laminas Form and Laminas View",
+    "type": "library",
+    "license": "BSD-3",
+    "keywords": [
+        "laminas",
+        "dojo toolkit",
+        "javascript",
+        "laminas form",
+        "laminas view"
+    ],
+    "homepage": "https://github.com/webinertia/dojo",
+    "authors": [
+        {
+            "name": "Joey Smith",
+            "email": "jsmith@webinertia.net",
+            "homepage": "https://webinertia.net/"
+        }
+    ],
+    "suggest": {
+        "laminas/laminas-component-installer" : "^2.8.0, required for configuration injection"
+    },
+    "require": {
+        "php": "^8.0 || ^8.1",
+        "laminas/laminas-component-installer" : "^2.8.0"
+    },
+    "extra": {
+        "laminas": {
+            "module": "Dojo",
+            "config-provider": "Dojo\\ConfigProvider"
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Dojo\\": "src/"
+        }
+    },
+    "config": {
+        "allow-plugins": {
+            "laminas/laminas-component-installer": true
+        }
+    }
+}
