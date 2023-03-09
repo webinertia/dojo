@@ -6,10 +6,10 @@ namespace Dojo\Form\Element;
 
 use Dojo\Form\Element;
 
-class Button extends Element
+final class TextBox extends Element
 {
     protected $dojoAttributes = [
-        'data-dojo-type' => 'dijit/form/Button',
-        'type'           => 'button',
+        'type' => 'text',
+        'data-dojo-type' => 'dijit/form/TextBox',
     ];
 }
